@@ -165,15 +165,30 @@ hr.light-100 {
     font-size: 2em;
     padding: .7rem;
   }
+  #info:before {
+    height: 64px;
+    content: "";
+    display:block;
+  }
 }
 @media (max-width: 430px) {
   .carousel-caption h1 {
     font-size: 180%;
   }
+   #info:before {
+    height: 84px;
+    content: "";
+    display:block;
+  }
 }
 @media (max-width: 355px) {
   .carousel-caption h1 {
     font-size: 140%;
+  }
+   #info:before {
+    height: 104px;
+    content: "";
+    display:block;
   }
 }
 
