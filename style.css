@@ -166,6 +166,11 @@ hr.light-100 {
     padding: .7rem;
   }
 }
+@media (max-width: 430px) {
+  .carousel-caption h1 {
+    font-size: 180%;
+  }
+}
 
 
 /*---Firefox Bug Fix --*/
