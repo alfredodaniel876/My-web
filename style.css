@@ -17,7 +17,7 @@ navbar {
   font-size: 1.1em !important;
 }
 #info:before {
-  height: 54px;
+  height: 26px;
   content: "";
   display:block;
 }
