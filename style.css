@@ -16,11 +16,6 @@ navbar {
 .nav-link {
   font-size: 1.1em !important;
 }
-#info:before {
-  height: 54px;
-  content: "";
-  display:block;
-}
 .carousel-inner img {
   width: 100%;
   height: 100%;
