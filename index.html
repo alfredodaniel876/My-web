@@ -12,6 +12,13 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			if($(window).width() < 686){
+				$('#text').removeAttr('class');
+			}
+		});
+	</script>
 	<link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -59,15 +66,15 @@
 
     <!--- Welcome Section -->
 		<div class="container-fluid padding">
-			<div class="row welcome text-center">
+			<div class="row welcome text-center" id="text">
 				<div class="col-12">
 					<h1 class="display-4" id="info">Sobre nosotros...</h1>
 				</div>
 				<hr>
 				<div class="col-12">
 					<p class="lead">Somos un grupo de jóvenes dedicados a generar un cambio en la cultura empresarial del país. Imaginamos, planeamos y creamos
-						una base sólida para que proyectos como el tuyo y de otros emprendedores del mundo, se puedan hacer realidad. Somos la nueva cultura empresarial.
-						Creamos con pasión, visión, imaginación, liderazgo y emprendimiento las condiciones perfectas para que tú proyecto de vida sea una realidad. Nos
+						una base sólida para que proyectos como el tuyo y el de otros emprendedores se puedan hacer realidad. Somos la nueva cultura empresarial.
+						Creamos con pasión, visión, imaginación y liderazgo y las condiciones perfectas para que tu proyecto de vida pueda ser una realidad. Nos
 						importan las personas y sus sueños, por lo que nos enfocamos en conocer a los emprendedores y entender sus ideas para que estas se desarrollen de
 						manera sostenible y alcancen toda su grandeza.
 					</p>
@@ -94,7 +101,7 @@
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-4">
 					<i class="fab fa-bootstrap"></i>
-					<h3>BOOTSTRAP</h3>
+					<h3>BOOTSTRAP4</h3>
 					<p>Librería utilizada para facilitar <br>
 					el diseño con CSS3.</p>
 				</div>
@@ -115,7 +122,8 @@
 				<div class="col-lg-6" id="emprende">
 					<h2>Emprende con nostros</h2>
 					<p>Para aquellos interesados en hacer un poco más, podrán consultar por la
-						oportunidad de emprender con nosotros.</p>
+						oportunidad de emprender con nosotros. Se trata de una oportunidad única en el
+						creciente mercado global de las tecnologías de la información.</p>
 						<br>
 				</div>
 				<div class="col-lg-6">
